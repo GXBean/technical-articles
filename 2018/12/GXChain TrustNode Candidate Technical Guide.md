@@ -180,7 +180,7 @@ Go to `Settings > Wallet` in the web wallet, and click on the `NEW WALLET` butto
 
 TrustNode Candidates created with web wallet does not have a homepage URL in its profile. Using `cli-wallet`, you will be able to provide a homepage URL when creating TrustNode candidate, or update the profile to add the homepage URL. Type in the following command and press Enter to update the profile:
 
-    update_witness <TrustNodeCandidateAccountName> <HomepageUrl> null GXC true
+    update_witness <TrustNodeCandidateAccountName> <HomepageUrl> "" GXC true
 
 When the transaction is successfully executed, all GXChain users will be able to see your homepage url when they read the TrustNode candidate list.
 
